@@ -1,7 +1,9 @@
-package me.utils
+package me.sample
 
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
+import me.utils.DeviceUtil
+import me.utils.Utils
 
 class MainActivity : AppCompatActivity() {
 

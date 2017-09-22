@@ -1,4 +1,4 @@
-package me.utils;
+package me.sample;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
