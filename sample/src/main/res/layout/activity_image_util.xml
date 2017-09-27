@@ -3,6 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:paddingLeft="@dimen/x36"
+    android:paddingRight="@dimen/x36"
     tools:context="me.sample.activity.ImageUtilActivity">
 
     <LinearLayout
@@ -10,9 +12,16 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-        <TextView
+        <Space
             android:layout_width="match_parent"
-            android:layout_height="@dimen/y80"/>
+            android:layout_height="@dimen/y24" />
+
+        <Button
+            android:id="@+id/btnBlur"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Blur"
+            android:textAllCaps="false" />
 
     </LinearLayout>
 

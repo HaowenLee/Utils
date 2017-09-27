@@ -17,7 +17,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".activity.ImageUtilActivity"></activity>
+        <activity android:name=".activity.ImageUtilActivity" />
+        <activity android:name=".activity.BlurActivity"></activity>
     </application>
 
 </manifest>
